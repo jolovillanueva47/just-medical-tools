@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "./just-medical-tools/app.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
