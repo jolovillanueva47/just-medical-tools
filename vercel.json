@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "./just-medical-tools/app.py",
+            "src": "just-medical-tools/app.py",
             "use": "@vercel/python"
         }
     ],
